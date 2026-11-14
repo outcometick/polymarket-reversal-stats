@@ -66,7 +66,7 @@ Every table is computed from [`rounds/`](rounds/): one gzip CSV per UTC day, one
 - **Round**: one 5-minute market, assigned to the UTC day it opens.
 - **Trigger**: the first moment inside the market's window when either side's price on the chosen basis is ≥ the threshold. That side is the favourite.
 - **Reversal**: the favourite lost at settlement.
-- Three price bases: **mid** = (best bid + best ask) / 2, **best bid**, and **trade** = the price of a print. Up and Down each have their own order book.
+- Three price bases: **mid** = (best bid + best ask) / 2, **best bid**, and **trade** = the price of a print. Up and Down each have their own order book. Mid is counted only while both sides are quoted: a book with no ask is skipped rather than priced as 1.0. So a 99% mid needs an ask above 0.99, which only sub-cent ticks allow, and the 99% mid row has few rounds; for the 99% line read the best-bid basis.
 - Only settled rounds count. Flat closes (rare) are left out.
 - **Wilson interval**: 95% score interval on the reversal rate.
 - **Win rate − price**: favourite win rate minus the average trigger price, in percentage points. Mid and best bid are not prices you can buy at (you pay the ask), and no fees are included — read it as a description of the market, not as a strategy result.
