@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" width="720" height="360" role="img" aria-label="Polymarket 5m: weekly reversal rate by threshold">
+
+<style>
+  .bg{fill:#fcfcfb} .t1{fill:#0b0b0b} .t2{fill:#52514e} .grid{stroke:#e4e3df}
+  .s1{stroke:#2a78d6;fill:#2a78d6} .s2{stroke:#eb6834;fill:#eb6834} .s3{stroke:#1baf7a;fill:#1baf7a}
+  .ref{stroke:#8a8984;fill:#8a8984} .ring{stroke:#fcfcfb}
+  text{font-family:-apple-system,Segoe UI,Helvetica,Arial,sans-serif;font-size:12px}
+  .title{font-size:14px;font-weight:600}
+  @media (prefers-color-scheme: dark){
+    .bg{fill:#1a1a19} .t1{fill:#f0efec} .t2{fill:#c3c2b7} .grid{stroke:#34332f}
+    .s1{stroke:#3987e5;fill:#3987e5} .s2{stroke:#d95926;fill:#d95926} .s3{stroke:#199e70;fill:#199e70}
+    .ref{stroke:#9d9c96;fill:#9d9c96} .ring{stroke:#1a1a19}
+  }
+</style>
+
+<rect class="bg" width="720" height="360" rx="8"/>
+<text class="t1 title" x="56" y="24">Polymarket 5m: weekly reversal rate by threshold</text>
+<line class="grid" x1="56" x2="600" y1="316.0" y2="316.0" stroke-width="1"/>
+<text class="t2" x="48" y="320.0" text-anchor="end">0%</text>
+<line class="grid" x1="56" x2="600" y1="261.6" y2="261.6" stroke-width="1"/>
+<text class="t2" x="48" y="265.6" text-anchor="end">2.5%</text>
+<line class="grid" x1="56" x2="600" y1="207.2" y2="207.2" stroke-width="1"/>
+<text class="t2" x="48" y="211.2" text-anchor="end">5%</text>
+<line class="grid" x1="56" x2="600" y1="152.8" y2="152.8" stroke-width="1"/>
+<text class="t2" x="48" y="156.8" text-anchor="end">7.5%</text>
+<line class="grid" x1="56" x2="600" y1="98.4" y2="98.4" stroke-width="1"/>
+<text class="t2" x="48" y="102.4" text-anchor="end">10%</text>
+<line class="grid" x1="56" x2="600" y1="44.0" y2="44.0" stroke-width="1"/>
+<text class="t2" x="48" y="48.0" text-anchor="end">12.5%</text>
+<text class="t2" x="80.7" y="334" text-anchor="middle">2026-08-31</text>
+<text class="t2" x="130.2" y="334" text-anchor="middle">2026-09-07</text>
+<text class="t2" x="179.6" y="334" text-anchor="middle">2026-09-14</text>
+<text class="t2" x="229.1" y="334" text-anchor="middle">2026-09-21</text>
+<text class="t2" x="278.5" y="334" text-anchor="middle">2026-09-28</text>
+<text class="t2" x="328.0" y="334" text-anchor="middle">2026-10-05</text>
+<text class="t2" x="377.5" y="334" text-anchor="middle">2026-10-12</text>
+<text class="t2" x="426.9" y="334" text-anchor="middle">2026-10-19</text>
+<text class="t2" x="476.4" y="334" text-anchor="middle">2026-10-26</text>
+<text class="t2" x="525.8" y="334" text-anchor="middle">2026-11-02</text>
+<text class="t2" x="575.3" y="334" text-anchor="middle">2026-11-09</text>
+<path class="s1" d="M80.7,113.3 L130.2,109.3 L179.6,113.2 L229.1,124.7 L278.5,116.9 L328.0,118.0 L377.5,113.5 L426.9,118.6 L476.4,112.5 L525.8,109.5 L575.3,120.6" fill="none" stroke-width="2" stroke-linejoin="round"/>
+<circle class="s1" cx="575.3" cy="120.6" r="4" stroke="none"/>
+<text class="t1" x="585.3" y="124.6">90%</text>
+<path class="s2" d="M80.7,221.8 L130.2,215.0 L179.6,212.9 L229.1,227.1 L278.5,216.0 L328.0,218.9 L377.5,223.4 L426.9,224.6 L476.4,217.7 L525.8,217.4 L575.3,214.2" fill="none" stroke-width="2" stroke-linejoin="round"/>
+<circle class="s2" cx="575.3" cy="214.2" r="4" stroke="none"/>
+<text class="t1" x="585.3" y="218.2">95%</text>
+<path class="s3" d="M80.7,307.0 L130.2,312.6 L179.6,306.8 L229.1,316.0 L278.5,305.1 L328.0,311.0 L377.5,297.3 L426.9,305.5 L476.4,304.5 L525.8,303.6 L575.3,301.1" fill="none" stroke-width="2" stroke-linejoin="round"/>
+<circle class="s3" cx="575.3" cy="301.1" r="4" stroke="none"/>
+<text class="t1" x="585.3" y="305.1">99%</text>
+<text class="t2" x="56" y="352">week starting (Monday, UTC) · all assets · mid price</text>
+</svg>
