@@ -39,14 +39,14 @@
 <text class="t2" x="486.7" y="334" text-anchor="middle">2026-11-02</text>
 <text class="t2" x="532.0" y="334" text-anchor="middle">2026-11-09</text>
 <text class="t2" x="577.3" y="334" text-anchor="middle">2026-11-16</text>
-<path class="s1" d="M78.7,113.3 L124.0,109.3 L169.3,113.2 L214.7,124.7 L260.0,116.9 L305.3,118.0 L350.7,113.5 L396.0,118.6 L441.3,112.5 L486.7,109.5 L532.0,124.3 L577.3,117.5" fill="none" stroke-width="2" stroke-linejoin="round"/>
-<circle class="s1" cx="577.3" cy="117.5" r="4" stroke="none"/>
-<text class="t1" x="587.3" y="121.5">90%</text>
-<path class="s2" d="M78.7,221.8 L124.0,215.0 L169.3,212.9 L214.7,227.1 L260.0,216.0 L305.3,218.9 L350.7,223.4 L396.0,224.6 L441.3,217.7 L486.7,217.4 L532.0,217.9 L577.3,219.5" fill="none" stroke-width="2" stroke-linejoin="round"/>
-<circle class="s2" cx="577.3" cy="219.5" r="4" stroke="none"/>
-<text class="t1" x="587.3" y="223.5">95%</text>
-<path class="s3" d="M78.7,307.0 L124.0,312.6 L169.3,306.8 L214.7,316.0 L260.0,305.1 L305.3,311.0 L350.7,297.3 L396.0,305.5 L441.3,304.5 L486.7,303.6 L532.0,306.1 L577.3,313.2" fill="none" stroke-width="2" stroke-linejoin="round"/>
-<circle class="s3" cx="577.3" cy="313.2" r="4" stroke="none"/>
-<text class="t1" x="587.3" y="317.2">99%</text>
+<path class="s1" d="M78.7,113.3 L124.0,109.3 L169.3,113.2 L214.7,124.7 L260.0,116.9 L305.3,118.0 L350.7,113.5 L396.0,118.6 L441.3,112.5 L486.7,109.5 L532.0,124.3 L577.3,121.9" fill="none" stroke-width="2" stroke-linejoin="round"/>
+<circle class="s1" cx="577.3" cy="121.9" r="4" stroke="none"/>
+<text class="t1" x="587.3" y="125.9">90%</text>
+<path class="s2" d="M78.7,221.8 L124.0,215.0 L169.3,212.9 L214.7,227.1 L260.0,216.0 L305.3,218.9 L350.7,223.4 L396.0,224.6 L441.3,217.7 L486.7,217.4 L532.0,217.9 L577.3,219.6" fill="none" stroke-width="2" stroke-linejoin="round"/>
+<circle class="s2" cx="577.3" cy="219.6" r="4" stroke="none"/>
+<text class="t1" x="587.3" y="223.6">95%</text>
+<path class="s3" d="M78.7,307.0 L124.0,312.6 L169.3,306.8 L214.7,316.0 L260.0,305.1 L305.3,311.0 L350.7,297.3 L396.0,305.5 L441.3,304.5 L486.7,303.6 L532.0,306.1 L577.3,309.8" fill="none" stroke-width="2" stroke-linejoin="round"/>
+<circle class="s3" cx="577.3" cy="309.8" r="4" stroke="none"/>
+<text class="t1" x="587.3" y="313.8">99%</text>
 <text class="t2" x="56" y="352">week starting (Monday, UTC) · all assets · mid price</text>
 </svg>
